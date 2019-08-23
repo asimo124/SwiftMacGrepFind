@@ -8,5 +8,10 @@
 
 import Foundation
 
-print("Hello, World!")
+let grepFind = GrepFind()
+if CommandLine.argc < 2 {
+    //TODO: Handle interactive mode
+} else {
+    grepFind.staticMode()
+}
 
